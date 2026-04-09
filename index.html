@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Chaozhou - Home</title>
+<link rel="icon" type="image/jpeg" href="favicon.jpg">
+
+<style>
+  body {
+    margin: 0;
+    font-family: Georgia, serif;
+    background: linear-gradient(to bottom, #FFEFD5, #FFDAB9);
+    background-image: url('images/texture_light.png'), url('images/overlay_pattern.png');
+    background-repeat: repeat, no-repeat;
+    background-position: top left, center;
+    background-size: auto, cover;
+    color: #333;
+    scroll-behavior: smooth;
+  }
+
+  nav {
+    position: sticky;
+    top: 0;
+    background-color: #FF8C00;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    z-index: 100;
+  }
+
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.3s;
+  }
+
+  nav a:hover { color: red; transform: scale(1.1); }
+
+  header {
+    text-align: center;
+    padding: 80px 20px 20px;
+  }
+
+  header h1 {
+    font-size: 48px;
+    color: #8B4513;
+    margin-bottom: 5px;
+  }
+
+  header .subtitle {
+    font-size: 24px;
+    color: #A0522D;
+    font-weight: 500;
+    margin-bottom: 15px;
+  }
+
+  .intro-features {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 15px;
+    margin-bottom: 50px;
+  }
+
+  .intro-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 50px;
+    transition: transform 0.3s;
+    cursor: pointer;
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .intro-item:hover { transform: scale(1.2); }
+
+  .intro-item span {
+    margin-top: 8px;
+    font-size: 18px;
+    color: #555;
+  }
+
+  .main-image {
+    width: 60%;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+    margin-top: 20px;
+  }
+
+  header p {
+    font-family: 'Merriweather', serif;
+    font-size: 19px;
+    line-height: 1.7;
+    color: #5C4033;
+    max-width: 700px;
+    margin: 25px auto 30px;
+    text-align: center;
+  }
+
+  .explore {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 14px 28px;
+    border: 2px solid #FFA500;
+    background: rgba(255,255,255,0.7);
+    text-decoration: none;
+    color: black;
+    border-radius: 5px;
+    transition: 0.3s;
+    font-size: 18px;
+  }
+
+  .explore:hover { background: #FFA500; color: white; }
+</style>
+</head>
+
+<body>
+
+<nav>
+  <a href="index.html">Home</a>
+  <a href="page2.html">Explore More</a>
+</nav>
+
+<header>
+  <h1>Welcome to Chaozhou</h1>
+  <div class="subtitle">Discover the Soul of Ancient &amp; Modern Chaozhou</div>
+
+  <div class="intro-features">
+    <a href="page2.html#bridges" class="intro-item">🌉<span>Bridges &amg Streets</span></a>
+    <a href="page2.html#historic" class="intro-item">🏯<span>Historic Sites</span></a>
+    <a href="page2.html#food" class="intro-item">🍜<span>Local Cuisine</span></a>
+    <a href="https://news.cgtn.com/news/2025-04-08/Young-artisan-brings-Chaozhou-porcelain-inlay-into-modern-life-1CoXC0rmWcM/index.html" class="intro-item" target="_blank">🎎<span>Culture &amg Arts</span></a>
+  </div>
+
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/Rk8UgqHvkG8?si=i38Jv4IuTWEWCt5Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+  <p>Discover the rich history, vibrant culture, and delicious cuisine of Chaozhou. Wander across ancient bridges, stroll through traditional streets, and savor local delicacies that tell the story of this unique city.</p>
+
+  <a href="page2.html" class="explore">Explore More</a>
+</header>
+
+</body>
+</html>
